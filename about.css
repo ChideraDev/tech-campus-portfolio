@@ -1,0 +1,224 @@
+.container{
+    margin: 0 auto;
+    box-sizing: border-box;
+    color:  #25282B;
+    background-color: #E5E5E5;
+    
+  
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: auto;
+    padding-top: 18px;
+    
+}
+#anchor-head{
+    text-decoration: none;
+    color:  #25282B;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+a{
+    text-decoration: none;
+    color:  #25282B;
+    font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+}
+
+a:hover{
+    text-decoration: underline solid #828282 30%;
+}
+
+.container1{
+    margin-top: 50px;
+    display: flex;
+   width: 80%;
+   margin: 50px auto 0 auto;
+   align-items: center;
+   padding-bottom:93px ;
+}
+
+
+.container1-left{
+    width: 50%;
+}
+
+.container1-left h3{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 20px;
+text-transform: uppercase;
+color: #FDC435;
+}
+
+
+.container1-left h1{
+    font-family: 'Playfair Display',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 120%;
+color: #25282B;
+}
+
+.container1-left p{
+    font-family: 'Nunito', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 150%;
+color: #828282;
+width: 592px;
+}
+
+#btn1{
+    background: #FDC435;
+border-radius: 8px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+border: 0;
+width: 118px;
+height: 50px;
+}
+
+.container1-right{
+    width: 30%;
+    padding-left: 152px;
+}
+
+.container2{
+    margin:0 auto;
+    width: 80%;
+}
+
+.container2-1{
+    font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 48px;
+line-height: 72px;
+text-align: center;
+}
+.container2-1 h3{
+    margin-bottom: 5px;
+}
+#container2-1-line{
+   background: #FDC435;
+   height: 5px;
+   width: 100px;
+   margin: auto;
+}
+
+form{
+    margin: auto;
+    width: 25%;
+}
+input{
+    background: #FFFFFF;
+border: 1px solid #E8ECF4;
+border-radius: 8px;
+width: 400px;
+height: 30px;
+margin-top: 10px;
+}
+#message{
+    background: #FFFFFF;
+border: 1px solid #E8ECF4;
+border-radius: 8px;
+width: 400px;
+height: 150px;
+}
+label{
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+color: #25282B;
+
+}
+.btn-send{
+  display: flex;
+  justify-content: flex-end;
+  width: 405px;
+}
+
+#send{
+    background: #FDC435;
+border-radius: 8px;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 150%;
+border: 0;
+width: 87px;
+height: 43px;
+}
+.container4{
+    width: 20%;
+    margin: 50px auto auto auto; 
+    padding-bottom: 30px ;
+}
+
+.container4-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 65%;
+    margin: auto;
+}
+.container4-p{
+    width: 84%;
+    margin: auto;
+    text-align: center;
+    font-family: 'Nunito';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #828282;
+}
+
+
+.fa-instagram{
+color: #25282B;
+font-size: 30px;
+}
+
+.fa-linkedin{
+color: #25282B;
+font-size: 30px;
+}
+
+.fa-envelope{
+    color: #25282B;
+    font-size: 30px;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-image: url("./images/Vector.png");
+    background-size: 100% 100%;
+}
